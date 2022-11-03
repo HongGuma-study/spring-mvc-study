@@ -25,5 +25,6 @@ public class IndexController {
         // <beans:property name="prefix" value="/WEB-INF/views/" /> + index + <beans:property name="suffix" value=".jsp" />
         // 의 결과로 만들어진 url임 (index는 현재 public string index() 에서 index 임 대충 컨트롤러 안의 함수명이라고 생각하면 될듯?)
         return "index";
+
     }
 }
